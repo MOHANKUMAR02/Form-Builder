@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Button, StyleSheet } from 'react-native';
-import { useToast } from '../toast/ToastContext';
+import { useToast } from '../Toast/ToastContext';
 
 const HomeScreen = () => {
   const { showToast } = useToast();
